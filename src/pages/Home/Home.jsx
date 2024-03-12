@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import { fetchShows } from '../../api/show-api';
 import { Header } from '../../components/Header/Header';
@@ -8,7 +7,6 @@ import { ShowList } from '../../components/ShowList/ShowList';
 
 export function Home() {
 
-    /**/
     const [shows, setShows] = useState([]);
 
     useEffect(() => {
@@ -19,7 +17,6 @@ export function Home() {
         const showsList = await fetchShows();
         setShows(showsList);
     }
-    /**/
 
     return (
         <div>

@@ -15,5 +15,5 @@ function App() {
     </div>
   )
 }
-// rlebhar on evitera les default
+// rlebhar : on evitera les default
 export default App
