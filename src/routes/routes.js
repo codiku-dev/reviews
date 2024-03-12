@@ -1,4 +1,3 @@
-export const ROUTES = Object.freeze({
-    index: "/",
-    details: "/details",
+export const routes = Object.freeze({
+    home: '/',
 })
