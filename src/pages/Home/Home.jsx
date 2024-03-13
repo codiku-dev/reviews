@@ -1,10 +1,11 @@
-import { MovieApi } from "../../assets/API/movie-api";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { MovieApi } from "../../assets/API/movie-api";
 import { ROUTES } from "../../routes/routes";
 
 export function Home(){
 
+    // rlebhar : Nommage setMovies
     const [movies, SetMovies] = useState([]);
 
     async function loadMovies(){
@@ -14,6 +15,7 @@ export function Home(){
 
     useEffect(() => {loadMovies()},[])
 
+    // rlebhar : Découper, on veut un composant de liste réutilisable
     return movies.map((movie) => {
         return (
             
