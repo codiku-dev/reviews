@@ -1,23 +1,21 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
-import { Header } from './Header/header.jsx';
-import { HomePage } from './Pages/HomePage.jsx';
-import { TVShow } from './Pages/TVShow.jsx';
-import { ROUTES } from "./Routes/routes.js";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { FilmDetail } from "./components/FilmDetail/FilmDetail"
+import { HomePage } from "./components/HomePage/HomePage"
+import { ROUTES } from "./routes/routes"
 
-// rlebhar : Le projet n'est pas du tout architecturé comme vu en cours.
-// Il n'y pas de dossier components tout est mélangé. Et attentions au majuscules , minuscules
+
+//rlebhar : Pas besoin de la div
+// rlebhar : il n'y pas pas de dossiers "pages", les pages sont dans "components", et il n'y pas pas de composants.
+// rlebhar : le dossier api est dans assets/
 export function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <Header />
+    <div>
+      <BrowserRouter>
         <Routes>
           <Route element={<HomePage />} path={ROUTES.index} />
-          <Route element={<TVShow />} path={ROUTES.showDetail + "/:id"} />
+          <Route element={<FilmDetail />} path={ROUTES.filmsDetail + "/:id"} />
         </Routes>
-      </div>
-    </BrowserRouter>
-  );
+      </BrowserRouter>
+    </div>
+  )
 }
