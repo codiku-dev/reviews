@@ -9,3 +9,6 @@ Checkout la branche qui porte ton nom pour trouver ton projet.
 
 Nickel.
 
+## Respect des conventions et structure
+
+Good !
