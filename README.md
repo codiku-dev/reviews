@@ -1,5 +1,4 @@
- # Adam Tadjine
-
+# Allouani Yanis
 
 ## reviews
 
@@ -8,13 +7,15 @@ Checkout la branche qui porte ton nom pour trouver ton projet.
 
 ## Au sujet de tes commits 
 
-Peu de commit, et pas de conventional commits
+Le projet est tout cassé, il y'en a deux dans le repo. 
+Plusieurs package.json. 
+
+Le nom des commits : 
+
+Premier push, Deuxieme push, troisieme push...
+
+C'est nope, utilise les conventional commit.
 
 ## Respect des conventions et structure
 
-Le dossier api est mal nommé et mal positionné (sous assets), il manque un dossier de constant ou config pour ce qui est global
-Pas mal en dehors de ça.
-
-## Overall
-
-Ca manque de contenu pour presque 2 heures de projet, aucun composants.
+C'est relativement propre mais les pages sont dans les composants. Et il manque des sous dossiers pour les pages

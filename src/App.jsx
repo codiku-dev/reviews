@@ -1,27 +1,28 @@
-import { useState } from 'react'
-import { Home } from './pages/Home/Home'
-import { Detail } from './pages/Detail/Detail'
-import { ROUTES } from './routes/routes'
-import { Route, Routes,BrowserRouter } from 'react-router-dom'
-import viteLogo from '/vite.svg'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
+import { FilmItem } from './components/pages/FilmItem'
+import { HomePage } from './components/pages/HomePage'
+import { ROUTES } from './routes/routes'
 
+// rlebhar : Guys, essayez de pas envoyer le code de vos potes en copié collé...
 export function App() {
+
+
   return (
+
     <div>
+      
       {/* <ToDoApp /> */}
       {/* <EffectLoby /> */}
       <BrowserRouter>
         <Routes>
-          <Route element={<Home/>} path={ROUTES.home} />
-          <Route element={<Detail/>} path={ROUTES.detail+"/:id"} />
-          <Route path={ROUTES.error} />
-      
+          <Route element={<HomePage />} path={ROUTES.index} />
+          <Route element={<FilmItem />} path={ROUTES.FilmDetail + "/:id"} />
+          <Route path="*" element={<div>404 Not found</div>} />
         </Routes>
       </BrowserRouter>
     </div>
-
   )
 }
 
-export default App
+
