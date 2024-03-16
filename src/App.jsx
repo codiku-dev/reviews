@@ -1,27 +1,26 @@
-import { useEffect, useState } from 'react';
-import { fetchAllMovies } from './api/movies-api';
-import { CardList } from './components/CardList/CardList';
-import { Header } from './components/Header/Header';
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import './App.css'
+import { FilmDetail } from './pages/filmDetail/FilmDetail'
+import { Homepage } from './pages/homepage/Homepage'
+import { ROUTES } from './routes/routes'
 
+
+// rlebhar : Créer une vrai page 404
 export function App() {
-  const [movieList, setMovieList] = useState([]);
-
-  useEffect(() => {
-    loadMovieList();
-  }, []);
-
-  async function loadMovieList() {
-    const movies = await fetchAllMovies();
-    setMovieList(movies);
-  }
-
-  // rlebhar : CardList est un composant qui affiche une liste de Card mais spécifique à des tv show, 
-  // elle ne s'adapte pas à n'importe quoi ( liste de iser)
-  // Donc on va la nommer plutot TvShowList ou MovieList et du coup la props dataList serai plutôt tvShowList ou movieList
   return (
-    <>
-      <Header />
-      <CardList dataList={movieList} />
-    </>
+    <div>
+      {/* <ToDoApp /> */}
+      {/* <EffectLoby /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Homepage />} path={ROUTES.Homepage} />
+          <Route element={<FilmDetail />} path={ROUTES.FilmDetail + "/:id"} />
+          <Route path="*" elements={<div>404 not found</div>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+
   )
 }
+
+export default App

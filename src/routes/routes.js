@@ -1,3 +1,4 @@
 export const ROUTES = Object.freeze({
-    index: "/"
+    Homepage: "/",
+    FilmDetail: "/film"
 })

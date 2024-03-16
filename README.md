@@ -1,4 +1,4 @@
-# Soleymane LATRECHE
+# El Azzaoui youssef
 
 ## reviews
 
@@ -7,12 +7,13 @@ Checkout la branche qui porte ton nom pour trouver ton projet.
 
 ## Au sujet de tes commits 
 
-Bravo pour l'utilisation des conventional commits.
+Pas de conventional commits.
 
 ## Respect des conventions et structure
 
-Très bien l'architecture des dossiers le nommage des fichiers  est bien respecté et les variables sont bien nommées
+Attention au nommages des dossiers  pour les pages qui sont actuellement en minuscules
 
 ## Overall
-
-Dommage que le routing ne soit pas place mais sinon c'est très bien. 
+C'est pas trop mal mais trop peu de contenu pour plusieurs heures de projet.
+Code partagé entre : Adam, Yanis et toi c'est dommage. 
+Essayez de le faire de votre coté.
