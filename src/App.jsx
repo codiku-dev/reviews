@@ -1,26 +1,20 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { useEffect, useState } from 'react'
+
+import { TvShowApi } from "./api/TvShow-api.js"
+
+import { RouteMolecule } from './components/Molecules/RouteMolecule/RouteMolecule.jsx'
+
 import './App.css'
-import { FilmDetail } from './pages/filmDetail/FilmDetail'
-import { Homepage } from './pages/homepage/Homepage'
-import { ROUTES } from './routes/routes'
+
+function App() {
 
 
-// rlebhar : Créer une vrai page 404
-export function App() {
-  return (
-    <div>
-      {/* <ToDoApp /> */}
-      {/* <EffectLoby /> */}
-      <BrowserRouter>
-        <Routes>
-          <Route element={<Homepage />} path={ROUTES.Homepage} />
-          <Route element={<FilmDetail />} path={ROUTES.FilmDetail + "/:id"} />
-          <Route path="*" elements={<div>404 not found</div>} />
-        </Routes>
-      </BrowserRouter>
-    </div>
 
-  )
+  return <div>
+    <RouteMolecule />
+  </div>
+
 }
 
 export default App
+

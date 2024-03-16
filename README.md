@@ -1,4 +1,4 @@
-# El Azzaoui youssef
+# Owenn Fils-Aimé
 
 ## reviews
 
@@ -7,13 +7,18 @@ Checkout la branche qui porte ton nom pour trouver ton projet.
 
 ## Au sujet de tes commits 
 
-Pas de conventional commits.
+Utilisation des conventional commits, c'est bien
 
 ## Respect des conventions et structure
 
-Attention au nommages des dossiers  pour les pages qui sont actuellement en minuscules
+Tu as un readme.txt, il n'y a toujours qu'un seul readme.md dans un projet
+Placer le config.js dans src/ dans un dossier config/config.js ou bien dans un .env à la racine
+Attention à bien respecter la structure imposée ( pas de atomic design )
+Bravo cependant pour la curiosité de découvrir de nouvelle architecture.
 
 ## Overall
-C'est pas trop mal mais trop peu de contenu pour plusieurs heures de projet.
-Code partagé entre : Adam, Yanis et toi c'est dommage. 
-Essayez de le faire de votre coté.
+
+Les features importantes ont été réalisée bravo.
+Les commits sont là.
+Simplement veille à bien coller à l'archi imposée.
+C'est globalement très bien.
