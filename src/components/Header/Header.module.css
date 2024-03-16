@@ -1,0 +1,22 @@
+/* rlebhar : Pas besoin de suffixer par Style partout pour éviter la surchage de texte. */
+.headerStyle {
+    margin-top: 3em;
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoStyle {
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.iconStyle {
+    height: 45px;
+    margin-right: 5px;
+}
+
+.formStyle {
+    margin: auto 0;
+}

@@ -1,4 +1,4 @@
-# Allouani Yanis
+# Soleymane LATRECHE
 
 ## reviews
 
@@ -7,15 +7,12 @@ Checkout la branche qui porte ton nom pour trouver ton projet.
 
 ## Au sujet de tes commits 
 
-Le projet est tout cassé, il y'en a deux dans le repo. 
-Plusieurs package.json. 
-
-Le nom des commits : 
-
-Premier push, Deuxieme push, troisieme push...
-
-C'est nope, utilise les conventional commit.
+Bravo pour l'utilisation des conventional commits.
 
 ## Respect des conventions et structure
 
-C'est relativement propre mais les pages sont dans les composants. Et il manque des sous dossiers pour les pages
+Très bien l'architecture des dossiers le nommage des fichiers  est bien respecté et les variables sont bien nommées
+
+## Overall
+
+Dommage que le routing ne soit pas place mais sinon c'est très bien. 

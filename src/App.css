@@ -1,70 +1,42 @@
-/* Styles généraux */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #121212;
-    color: #fff;
-    margin: 0;
-    padding: 20px;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-h1 {
-    color: #E50914;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* Style de la barre de recherche */
-.search-bar {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.search-bar input[type="text"] {
-    width: 100%;
-    max-width: 600px;
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-    margin-right: 10px;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
 
-.search-bar button {
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: none;
-    background-color: #E50914;
-    color: white;
-    cursor: pointer;
+.card {
+  padding: 2em;
 }
 
-/* Style de la liste de films */
-.film-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Crée des colonnes d'au moins 200px de large */
-    gap: 20px; /* Espacement entre les éléments */
-}
-
-.film-item img {
-    width: 100%; /* Assure que les images s'adaptent à la largeur de leur conteneur .film-item */
-    height: auto; /* Maintient le ratio d'aspect des images */
-    border-radius: 10px; /* Optionnel: arrondit les coins des images */
-}
-
-.film-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.film-item a {
-    margin-top: 10px;
-    text-decoration: none;
-    color: #E50914;
-    font-weight: bold;
-}
-
-@media (max-width: 600px) {
-    .film-list {
-        grid-template-columns: 1fr;
-    }
+.read-the-docs {
+  color: #888;
 }
