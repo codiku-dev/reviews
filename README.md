@@ -3,7 +3,8 @@
 Clone se projet et fait une recherche ( avec ctl + shift + f ) du terme "rlebhar" pour trouver tous mes commentaires. Checkout la branche qui porte ton nom pour trouver ton projet.
 
 ## Structure du repo
-La structure du git n'est pas bonne il y'a un sous dossier.
+La structure du git n'est pas bonne il y'a un sous dossier. 
+Attention les composants n'ont pas de dossiers et sont mélangés avec le reste des src
 
 ## Au sujet de tes commits qui sont les suivants :
 
