@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// rlebhar : Le nom du composant est bien mais pas le doossier/fichier
+// rlebhar : Le nom du composant est bien mais pas le doossier/fichier ( il devrait s'appeler SearchBar aussi)
 // onSearch, serait plutot onChange
 export function SearchBar({ onSearch }) {
   const [inputValue, setInputValue] = useState("");
