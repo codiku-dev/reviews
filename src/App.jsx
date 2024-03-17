@@ -6,6 +6,7 @@ import { Route, Routes,BrowserRouter } from 'react-router-dom'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// rlebhar : Evitez de copier coller le code des potes 
 export function App() {
   return (
     <div>
