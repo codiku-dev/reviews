@@ -26,6 +26,7 @@ export function FilmDetails() {
     }
 
     async function fetchRelatedFilms(id) {
+        // rlebhar : Nommage , relatedFilms
         const related = await APIFilm.fetchFilmRecommendationsByID(id)
         // rlebhar, pas indiqué dans les specs, on veut tout
         const compressedRelated = related.slice(0, 6)
