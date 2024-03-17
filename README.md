@@ -1,4 +1,4 @@
-# Owenn Fils-Aimé
+# MOIMEAUX Balthazar
 
 ## reviews
 
@@ -7,18 +7,21 @@ Checkout la branche qui porte ton nom pour trouver ton projet.
 
 ## Au sujet de tes commits 
 
-Utilisation des conventional commits, c'est bien
+Pas de conventional commits. Mais je crois que tu n'étais pas là au dernier cours.
 
 ## Respect des conventions et structure
 
-Tu as un readme.txt, il n'y a toujours qu'un seul readme.md dans un projet
-Placer le config.js dans src/ dans un dossier config/config.js ou bien dans un .env à la racine
-Attention à bien respecter la structure imposée ( pas de atomic design )
-Bravo cependant pour la curiosité de découvrir de nouvelle architecture.
+Très bien l'architecture des dossiers et fichiers est bonne, bons nommages.
+N'oublie pas de bien créer une dossier pages et d'y mettre les composants de premiers niveaux pour les routes.
+
 
 ## Overall
 
-Les features importantes ont été réalisée bravo.
-Les commits sont là.
-Simplement veille à bien coller à l'archi imposée.
-C'est globalement très bien.
+Good job.
+Il faudra ajouter la recherche car là on uniqument le filtrage.
+
+Vise le 100% de nommage nickel, pas de raccourcis, ce qui est tableau doit être indiqué dans le nom, soit par "s" soit par "list"
+Une fonction doit toujours contenir un verbe.
+Extraire tout ce qui est constant, (URL) vers constant/
+Utiliser des conventional commits
+Ordonner le composant, déclarations haut, puis useEffect, puis fonctions si possible.
