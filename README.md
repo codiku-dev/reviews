@@ -1,4 +1,6 @@
-# reviews
+#Aurian Baudet
+
+## reviews
 
 Clone se projet et fait une recherche ( avec ctl + shift + f ) du terme "rlebhar" pour trouver tous mes commentaires.
 Checkout la branche qui porte ton nom pour trouver ton projet.
@@ -25,3 +27,7 @@ Aurian Baudet authored 1 day ago
 Ca ne respecte pas le conventional commit : j'attend le format suivant
 
 type(scope): description
+
+## Overall
+
+Good job ! La structure est bonne, il faut maintenant se focus sur des nommages parfait
