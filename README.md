@@ -18,4 +18,5 @@ C'est nope, utilise les conventional commit.
 
 ## Respect des conventions et structure
 
-C'est relativement propre mais les pages sont dans les composants. Et il manque des sous dossiers pour les pages
+C'est relativement propre mais les pages sont dans les composants. Et il manque des sous dossiers pour les pages.
+C'est pas mal, lâche pas, focus toi bien sur les conventions, le nommage, et le fait d'avoir une architecture clean  
