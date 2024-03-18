@@ -12,9 +12,10 @@ Peu de commit, et pas de conventional commits
 
 ## Respect des conventions et structure
 
-Le dossier api est mal nommé et mal positionné (sous assets), il manque un dossier de constant ou config pour ce qui est global.
+La structure globale est pas mal.
+Attenton le dossier api est mal nommé et mal positionné (sous assets), il manque un dossier de constant ou config pour ce qui est global.
 Pas mal en dehors de ça.
 
 ## Overall
 
-Ca manque de contenu pour presque 2 heures de projet, aucun composants.
+Pas trop mal mais ça manque de contenu pour plusieurs heures de projet, aucun composants.
