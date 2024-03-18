@@ -6,7 +6,7 @@ Lancer la commande avec la branche associée à votre nom : 
 git clone -b <branche> https://github.com/codiku-dev/reviews.git
 ```
 
-Lisez le readme de votre branche ensuite pour trouver mes commentaires.
+Une fois cloné, lisez le readme pour accéder à mes commentaires
 
 ### Branches disponibles :
 
