@@ -16,3 +16,14 @@ Bivash ROY a rédigé il y a une heure
 Initial commit
 Roy a rédigé il y a une heure
 88f9abd8
+
+## Structure
+
+La structure est pas mal, attention aux conventions majuscule minuscule, et nommage.
+
+
+## Overall
+
+C'est bien il y'a pas mal de feature.
+Focus toi sur les conventions et la structure pour optimiser la note final ;)
+N'oublie pas de try catch les call api dans api-movie-db.js
