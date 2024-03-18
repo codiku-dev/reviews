@@ -2,6 +2,7 @@ const key = "8900777c3e24b91251b82d265e010672"
 
 //rlebhar : Clé d'api a sortir vers /config/config.js
 // rlebhar : https://api.themoviedb.org/3/ a sortir vers config
+// rlebhar : Ajouter des try catch et retourner un résultat cohérent en cas d'erreur
 export const FilmApi = {
     //rlebhar : Nommage: Ca fetch tous les films ? Ou juste une partie très spécifique , les populars?
     fetchAllFilms: async () => {
