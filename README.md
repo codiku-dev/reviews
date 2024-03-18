@@ -12,3 +12,8 @@ Nickel.
 ## Respect des conventions et structure
 
 Good !
+
+## Overall
+
+Bien, il faut maintenant ajouter d'autres features.
+Et attention à bien sécuriser avec try catch les endpoints retourner un résultat cohérent en cas d'erreur
