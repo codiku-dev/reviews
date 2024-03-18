@@ -35,7 +35,7 @@ export function HomePage() {
             <h1>HomePage</h1>
             <input type="text" placeholder="Rechercher un film..." value={rechercher} onChange={(e) => setRechercher(e.target.value)} />
 
-
+            {/* rlebhar : composant FilmList  */}
             {filmsList.map((film) => (
                 <div key={film.id}>
                     <img src={`https://image.tmdb.org/t/p/w500${film.backdrop_path}`} />
