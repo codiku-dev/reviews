@@ -7,6 +7,7 @@ import { Card } from '../../components/card/Card';
 import { Loader } from '../../components/loader/Loader';
 import { Navbar } from '../../components/navbar/Navbar';
 import { Search } from '../../components/search/Search';
+// rlebhar Le dossier acceuil doit être en PascaleCase car c'est un composant
 //rlebhar : Attention tout en anglais, les dossier (accueil et les composant aussi)
 export function Accueil() {
     const [search, setSearch] = useState('');
