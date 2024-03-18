@@ -2,6 +2,7 @@ import { TvShowApiKey } from "../../config.js";
 // rlebhar : Nomagge du fichier en kebab-case.js
 // rlebhar : Externaliser https://api.themoviedb.org/3/tv/
 // rlebhar : Retourner partout ou c'est possible le .result de data pour pas avoir à le récupérer depuis l'exterieur.  
+// rlebhar : Ajouter des try catch et retourner un résultat cohérent en cas d'erreur
 export const TvShowApi = {
     fetchPopularTvShows: async () => {
         let response = await fetch(`https://api.themoviedb.org/3/tv/popular?api_key=${TvShowApiKey}`)
