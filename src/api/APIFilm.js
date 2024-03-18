@@ -1,5 +1,5 @@
  //rlebhar Nommage du fichier, uniquement les composants en pascale case, le reste en kebab case (nom-de-fichier.js)
- 
+ // rlebhar : Ne pas oublier de try catch les call et de retourner un résultat cohérent en cas d'erreur.
  //rlebhar Archi, externaliser la clé d'api vers un dossier config/config.js et la réutiliser
 export const APIFilm = {
     //rlebhar Nommage, cette fonction ne fetch pas tous les films, seulement les populaires (d'ailleurs ici on fetch des séries d'ailleurs)
