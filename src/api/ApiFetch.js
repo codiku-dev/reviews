@@ -3,6 +3,7 @@ import { KEY } from "../constant/ApiKeyTMDB"
 // rlebhar : Nommage du fichier, tous les fichiers sont en kebab-case excepté ce qui est composants React 
 // rlebhar : Nommage  apiMovie
 // rlebhar : Extraire https://api.themoviedb.org/3/ vers constantes  ou .env
+// rlebhar : Ne pas oublier de try catch les call et de retourner un résultat cohérent en cas d'erreur.
 export const apiFetch = {
 	fetchAll : async ()=>{
 		const response = await fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${KEY()}`)
