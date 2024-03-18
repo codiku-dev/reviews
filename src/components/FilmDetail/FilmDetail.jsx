@@ -31,6 +31,7 @@ export function FilmDetail() {
     }
 
     // rlebhar: https://image.tmdb.org/t/p/ a externaliser vers /config/config.js
+    // rlebhar : Créer un composant pour la liste pour pouvoir la réutiliser
     return (
         <>
             <div>
