@@ -3,10 +3,10 @@ import { api } from '../config/Api';
 const apiKey = api.key;
 
 //rlebhar : Pour le nom du fichier les composant seul sont en Pascale case, le reste en kebab case ( api-mobie-db.js)
+// rlebhar : Ne pas oublier de try catch les call et de retourner un résultat cohérent en cas d'erreur.
 export const ApiMovieDB = {
     // rlebhar les fonction en camel case
     GetPopularShows : async () => {
-        // rlebhar si l'api est flinguée il faut sécuriser avec try catch et retourner un résultat cohérent quand ça ne fonctionne pas (par example [])
         const response = await fetch(`https://api.themoviedb.org/3/tv/popular?api_key=${apiKey}`);
         const data = await response.json();
         // rlebhar: Puisqu'on utilise toujours le "".result" dans data , il serait intéressant de le retourner 
