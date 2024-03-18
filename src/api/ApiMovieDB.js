@@ -6,10 +6,10 @@ const apiKey = api.key;
 export const ApiMovieDB = {
     // rlebhar les fonction en camel case
     GetPopularShows : async () => {
-        // rlebhar si l'api est flingué il faut sécuriser avec try catch et retourner un résultat cohérent quand ca ne fonctionne pas (par example [])
+        // rlebhar si l'api est flinguée il faut sécuriser avec try catch et retourner un résultat cohérent quand ça ne fonctionne pas (par example [])
         const response = await fetch(`https://api.themoviedb.org/3/tv/popular?api_key=${apiKey}`);
         const data = await response.json();
-        // rlebhar: Puisqu'on utilise toujours le "".result" dans data , il serai interessant de le retourner 
+        // rlebhar: Puisqu'on utilise toujours le "".result" dans data , il serait intéressant de le retourner 
        // dans chaque fonction pour éviter un extra travail à chaque utilisation
         return data;
     },
