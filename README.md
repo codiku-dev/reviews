@@ -18,7 +18,7 @@ Bravo cependant pour la curiosité de découvrir de nouvelle architecture.
 
 ## Overall
 
-Les features importantes ont été réalisée bravo.
+Les features importantes ont étés réalisées bravo.
 Les commits sont là.
 Simplement veille à bien coller à l'archi imposée.
 C'est globalement très bien.
