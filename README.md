@@ -37,3 +37,6 @@ c019619e
 Il y'a bien des commits mais attention d'utiliser les conventional commit comme expliqué en cours.
 (Et tout en anglais, rien en francais)
 
+## Overall
+
+C'est pas mal, applique toi encore + sur la structure, les nommages et la création de composants
