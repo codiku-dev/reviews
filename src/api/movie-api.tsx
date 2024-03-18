@@ -1,7 +1,8 @@
 import { API_KEY } from "../constants/config";
 import { Show, ShowDetails } from "../types/show";
 
-// rlebhar : https://api.themoviedb.org/3/ a externalisr
+// rlebhar : https://api.themoviedb.org/3/ a externaliser
+// rlebhar : Ne pas oublier de try catch les call et de retourner un résultat cohérent en cas d'erreur.
 export class MovieAPI {
     static fetchPopularShows = async (): Promise<Show[]> => {
         const response = await fetch(`https://api.themoviedb.org/3/tv/popular?api_key=${API_KEY}`);
