@@ -6,6 +6,9 @@ Clone ce projet et fait une recherche ( avec ctl + shift + f ) du terme "rlebhar
 Très bien structure du projet bien respectée.
 
 ## Au sujet de tes commits :
-Très bien, convential commits utilsés.
+Très bien, conventional commits utilisés.
+
+## Overall
 
 C'est globalement très bien.
+N'oublie pas de sécuriser les endpoint avec try catch
